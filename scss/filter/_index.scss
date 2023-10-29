@@ -1,0 +1,11 @@
+.filter__input {
+  padding: 8px;
+  border-radius: 0;
+  border: 1px solid $border;
+  width: calc(100% - 75px);
+  margin-right: -5px;
+}
+
+.filter_bottom {
+  margin-bottom: 20px;
+}

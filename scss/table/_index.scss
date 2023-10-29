@@ -1,0 +1,30 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: $main;
+}
+
+.table__th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.table__th.resizable {
+  position: relative;
+}
+
+.table__th.resizable::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 10px;
+  cursor: col-resize;
+}
+
+.table__td {
+  background-color: $white;
+  border: 1px solid $border;
+}

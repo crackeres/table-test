@@ -1,0 +1,26 @@
+.pagination {
+  text-align: center;
+}
+
+.pagination_top {
+  margin-top: 20px;
+  border: none;
+}
+
+.pagination__button {
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+  color: $link;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.active {
+  color: #000 !important;
+  text-decoration: none !important;
+  font-weight: bold;
+}
